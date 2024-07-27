@@ -1,0 +1,86 @@
+.not-found3-container {
+  width: 1037px;
+  height: 618px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/image_2024-07-27_042305283-1500w.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.not-found3-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 773px;
+  height: 385px;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: rgba(255, 255, 255, 0.81);
+}
+.not-found3-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.not-found3-text {
+  font-size: 70px;
+  text-align: center;
+  font-family: "Courier New";
+}
+.not-found3-text1 {
+  text-align: center;
+  font-family: "Courier New";
+  text-transform: uppercase;
+}
+.not-found3-text2 {
+  font-style: normal;
+  font-weight: 700;
+}
+.not-found3-button {
+  margin: var(--dl-space-space-twounits);
+  background-color: var(--dl-color-theme-neutral-dark);
+}
+.not-found3-action1 {
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
+.not-found3-text3 {
+  display: inline-block;
+  text-align: center;
+  font-family: "Courier New";
+  margin-left: var(--dl-space-space-threeunits);
+  margin-right: var(--dl-space-space-threeunits);
+}
+.not-found3-text4 {
+  display: inline-block;
+  font-family: "Courier New";
+  text-transform: uppercase;
+}
+.not-found3-root-class-name {
+  margin-top: var(--dl-space-space-threeunits);
+}
+@media(max-width: 767px) {
+  .not-found3-max-width {
+    align-items: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+  .not-found3-text3 {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .not-found3-max-width {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+}

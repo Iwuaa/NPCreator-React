@@ -1,0 +1,53 @@
+.banner1-container {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.banner1-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.banner1-container1 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.banner1-title {
+  font-size: 16px;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.banner1-navlink {
+  width: 230px;
+  height: 64px;
+  text-decoration: none;
+}
+.banner1-text1 {
+  font-style: normal;
+  font-weight: 700;
+}
+.banner1-text2 {
+  display: inline-block;
+  text-align: center;
+  font-family: "Poppins";
+}
+.banner1-text3 {
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+.banner1-text4 {
+  display: inline-block;
+  text-align: center;
+  font-family: "Poppins";
+}
+
