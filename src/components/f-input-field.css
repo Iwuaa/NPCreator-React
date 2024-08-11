@@ -1,0 +1,31 @@
+.f-input-field-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.f-input-field-textinput {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  width: 100%;
+  min-width: 30px;
+  border-color: var(--dl-color-red-sb_lightgray);
+  border-style: solid;
+  padding-left: var(--dl-space-space-quarterunit);
+  padding-right: var(--dl-space-space-quarterunit);
+}
+
+.f-input-field-root-class-name1 {
+  width: 100%;
+  height: auto;
+}
+.f-input-field-root-class-name2 {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+.f-input-field-root-class-name4 {
+  width: 100%;
+  height: auto;
+  display: none;
+}

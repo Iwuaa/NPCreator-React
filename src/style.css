@@ -1,28 +1,38 @@
 :root {
   --dl-size-size-large: 144px;
   --dl-size-size-small: 48px;
+  --dl-color-red-sb_red: #b91212ff;
   --dl-size-size-medium: 96px;
   --dl-size-size-xlarge: 192px;
   --dl-size-size-xsmall: 16px;
   --dl-space-space-unit: 16px;
+  --dl-color-red-asfasfs: #44abedff;
+  --dl-color-red-sb_gray: #7a7a7aff;
+  --dl-size-size-stb_row: 20;
   --dl-size-size-xxlarge: 288px;
+  --dl-color-red-lightred: #e5b6b6ff;
   --dl-size-size-maxwidth: 1400px;
-  --dl-color-theme-accent1: #FFFFFF;
+  --dl-color-theme-accent1: #b3ffe7ff;
   --dl-color-theme-accent2: #F5D1B0;
   --dl-radius-radius-round: 50%;
-  --dl-color-theme-primary1: #0ccda6ff;
-  --dl-color-theme-primary2: #14eca8ff;
+  --dl-color-theme-primary1: #e7880cff;
+  --dl-color-theme-primary2: #fcb219ff;
+  --dl-size-size-stb_column: 28;
   --dl-space-space-halfunit: 8px;
   --dl-space-space-sixunits: 96px;
   --dl-space-space-twounits: 32px;
+  --dl-color-red-originalred: #9d0b0bff;
   --dl-radius-radius-radius2: 2px;
   --dl-radius-radius-radius4: 4px;
   --dl-radius-radius-radius8: 8px;
   --dl-space-space-fiveunits: 80px;
   --dl-space-space-fourunits: 64px;
+  --dl-color-red-sb_lightgray: #bebcbcff;
   --dl-color-theme-secondary1: #FFFFFF;
-  --dl-color-theme-secondary2: #FBF1EB;
+  --dl-color-theme-secondary2: #ecececff;
   --dl-space-space-threeunits: 48px;
+  --dl-color-red-sb_lightgray1: #f1f1f1ff;
+  --dl-space-space-quarterunit: 4px;
   --dl-color-theme-neutral-dark: #191818;
   --dl-radius-radius-cardradius: 8px;
   --dl-color-theme-neutral-light: #FBFAF9;
@@ -30,6 +40,22 @@
   --dl-radius-radius-inputradius: 24px;
   --dl-radius-radius-buttonradius: 24px;
   --dl-space-space-oneandhalfunits: 24px;
+  --dl-color-class_colors-color-bard: #a577a6ff;
+  --dl-color-class_colors-color-monk: #64a0baff;
+  --dl-color-stb_colors-stb_abs1_mod: #f5eceaff;
+  --dl-color-stb_colors-stb_abs2_mod: #e7e0edff;
+  --dl-color-class_colors-color-druid: #8f9e46ff;
+  --dl-color-class_colors-color-rogue: #73746aff;
+  --dl-color-class_colors-color-cleric: #939496ff;
+  --dl-color-class_colors-color-ranger: #578369ff;
+  --dl-color-class_colors-color-wizard: #517dc6ff;
+  --dl-color-stb_colors-stb_abs1_score: #f7f3e0ff;
+  --dl-color-stb_colors-stb_abs2_score: #e5ebdfff;
+  --dl-color-class_colors-color-fighter: #985b41ff;
+  --dl-color-class_colors-color-paladin: #a1882aff;
+  --dl-color-class_colors-color-warlock: #936abcff;
+  --dl-color-class_colors-color-sorcerer: #bf5156ff;
+  --dl-color-class_colors-color-barbarian: #d17158ff;
 }
 .button {
   color: var(--dl-color-theme-neutral-dark);
@@ -49,10 +75,21 @@
   border-radius: 4px;
   background-color: var(--dl-color-theme-neutral-light);
 }
+.input1 {
+  color: var(--dl-color-theme-neutral-dark);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-red-sb_red);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-theme-neutral-light);
+}
 .textarea {
   color: var(--dl-color-theme-neutral-dark);
   cursor: auto;
+  resize: vertical;
   padding: 0.5rem;
+  overflow: auto;
   border-color: var(--dl-color-theme-neutral-dark);
   border-width: 1px;
   border-radius: 4px;
@@ -470,10 +507,154 @@
   z-index: -1;
   transform: scaleX(1);
 }
+.footer {
+  width: 100%;
+  bottom: 0;
+  height: 8.5rem;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.body {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.FORM_Values {
+  font-size: 0.7em;
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Navigation {
+  font-size: 1.2em;
+  font-family: "Bodoni Moda";
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.ST_Section {
+  font-size: 1.5em;
+  font-style: normal;
+  font-family: "Alegreya Sans SC";
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.FORM_Labels {
+  font-size: 1em;
+  font-style: normal;
+  font-family: "Alegreya Sans SC";
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.ST_FeatureTag {
+  font-size: 0.7em;
+  font-family: "Alegreya Sans SC";
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.ST_Table_Abs {
+  font-size: 1em;
+  font-style: normal;
+  font-family: "Alegreya Sans SC";
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
 .Content {
   font-size: 16px;
   font-family: "Poppins";
   font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.ST_ModSave {
+  font-size: 0.5em;
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.fRoleSel {
+  font-size: 0.8em;
+  font-style: normal;
+  font-family: "Alegreya Sans SC";
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.ST_Char_lbl {
+  font-size: 0.8em;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.ST_Name {
+  font-size: 2.2em;
+  font-style: normal;
+  font-family: "Alegreya Sans SC";
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.ST_Char_val {
+  font-size: 0.8em;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.ST_Text_Content {
+  font-size: 0.8em;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.ST_Type {
+  font-size: 1em;
+  font-style: italic;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.FORM_Section {
+  font-size: 1.2em;
+  font-style: normal;
+  font-family: "Alegreya Sans SC";
+  font-weight: 800;
   line-height: 1.15;
   text-transform: none;
   text-decoration: none;

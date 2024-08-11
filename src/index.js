@@ -11,16 +11,14 @@ import './style.css'
 import Page from './views/page'
 import Home from './views/home'
 import Builder from './views/builder'
-import NotFound from './views/not-found'
 
 const App = () => {
   return (
     <Router>
       <Switch>
-        <Route component={Page} exact path="/page" />
+        <Route component={Page} path="**" />
         <Route component={Home} exact path="/" />
         <Route component={Builder} exact path="/builder" />
-        <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
     </Router>

@@ -1,0 +1,11 @@
+.body-container {
+  min-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+}
+.body-root-class-name {
+  align-self: center;
+}
+

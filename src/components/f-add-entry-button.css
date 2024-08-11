@@ -1,0 +1,45 @@
+.f-add-entry-button-container {
+  display: flex;
+  position: relative;
+}
+.f-add-entry-button-button {
+  fill: var(--dl-color-red-sb_red);
+  color: var(--dl-color-red-sb_red);
+  width: 25px;
+  height: 25px;
+  margin: var(--dl-space-space-quarterunit);
+  display: flex;
+  padding: 0px;
+  font-family: "Arial";
+  border-width: 0px;
+  flex-direction: row;
+  background-color: var(--dl-color-red-lightred);
+}
+.f-add-entry-button-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: none;
+}
+.f-add-entry-button-icon2 {
+  width: 100%;
+  height: 100%;
+}
+.f-add-entry-button-root-class-name {
+  display: none;
+}
+.f-add-entry-button-root-class-name1 {
+  display: none;
+}
+.f-add-entry-button-root-class-name2 {
+  display: none;
+}
+.f-add-entry-button-root-class-name3 {
+  display: none;
+}
+.f-add-entry-button-root-class-name4 {
+  display: none;
+}
+
+.f-add-entry-button-root-class-name6 {
+  display: none;
+}

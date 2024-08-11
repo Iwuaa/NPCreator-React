@@ -1,0 +1,101 @@
+.exports-exports {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.exports-container {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.exports-text {
+  display: none;
+}
+.exports-button {
+  margin-left: var(--dl-space-space-halfunit);
+  padding-top: var(--dl-space-space-quarterunit);
+  margin-right: 0px;
+  padding-left: var(--dl-space-space-quarterunit);
+  padding-right: var(--dl-space-space-quarterunit);
+  padding-bottom: var(--dl-space-space-quarterunit);
+  background-color: var(--dl-color-theme-neutral-dark);
+}
+.exports-icon {
+  fill: var(--dl-color-theme-neutral-light);
+  width: 10px;
+  height: 10px;
+}
+.exports-button1 {
+  fill: var(--dl-color-theme-neutral-light);
+  color: var(--dl-color-theme-neutral-light);
+  margin-left: var(--dl-space-space-halfunit);
+  padding-top: var(--dl-space-space-quarterunit);
+  margin-right: 0px;
+  padding-left: var(--dl-space-space-quarterunit);
+  padding-right: var(--dl-space-space-quarterunit);
+  padding-bottom: var(--dl-space-space-quarterunit);
+  background-color: var(--dl-color-theme-neutral-dark);
+}
+.exports-button2 {
+  font-family: "Montserrat";
+  margin-left: var(--dl-space-space-halfunit);
+  padding-top: var(--dl-space-space-quarterunit);
+  margin-right: 0px;
+  padding-left: var(--dl-space-space-quarterunit);
+  padding-right: var(--dl-space-space-quarterunit);
+  padding-bottom: var(--dl-space-space-quarterunit);
+  background-color: var(--dl-color-theme-neutral-dark);
+}
+.exports-icon2 {
+  fill: var(--dl-color-theme-neutral-light);
+  width: 10px;
+  height: auto;
+  margin-left: var(--dl-space-space-quarterunit);
+  margin-right: 0px;
+}
+.exports-text04 {
+  fill: var(--dl-color-red-sb_gray);
+  color: var(--dl-color-red-sb_gray);
+  display: inline-block;
+  font-size: 0.8em;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+.exports-text05 {
+  fill: var(--dl-color-theme-neutral-light);
+  color: var(--dl-color-theme-neutral-light);
+  display: inline-block;
+  font-size: 0.6em;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.exports-text08 {
+  fill: var(--dl-color-theme-neutral-light);
+  color: var(--dl-color-theme-neutral-light);
+  display: inline-block;
+  font-size: 0.6em;
+  font-family: "Montserrat";
+}
+.exports-text09 {
+  font-style: normal;
+  font-weight: 700;
+}
+.exports-text11 {
+  fill: var(--dl-color-theme-neutral-light);
+  color: var(--dl-color-theme-neutral-light);
+  display: inline-block;
+  font-size: 0.6em;
+  font-family: "Montserrat";
+}
+.exports-text12 {
+  font-style: normal;
+  font-weight: 700;
+}
+
+

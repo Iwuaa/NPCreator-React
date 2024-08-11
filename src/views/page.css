@@ -8,36 +8,68 @@
 .page-text {
   display: inline-block;
 }
-.page-text1 {
+.page-text01 {
   display: inline-block;
 }
-.page-text2 {
+.page-text02 {
   display: inline-block;
 }
-.page-text3 {
+.page-text03 {
   display: inline-block;
 }
-.page-text4 {
+.page-text04 {
   display: inline-block;
 }
-.page-text5 {
+.page-text05 {
+  fill: var(--dl-color-theme-neutral-light);
   display: inline-block;
-  padding-left: var(--dl-space-space-twounits);
 }
-.page-text6 {
+.page-text06 {
   display: inline-block;
   font-family: "Courier New";
   text-transform: uppercase;
 }
-.page-text7 {
+.page-text07 {
   display: inline-block;
   text-align: center;
   font-family: "Courier New";
-  margin-left: var(--dl-space-space-threeunits);
-  margin-right: var(--dl-space-space-threeunits);
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}
+.page-text08 {
+  display: inline-block;
+}
+.page-text09 {
+  display: inline-block;
+}
+.page-text10 {
+  display: inline-block;
+}
+.page-text11 {
+  display: inline-block;
+  font-size: 1em;
+  font-family: "Bodoni Moda";
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.page-text12 {
+  display: inline-block;
+  font-size: 1em;
+  font-family: "Bodoni Moda";
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .page-text02 {
+    font-family: Poppins;
+  }
 }
 @media(max-width: 767px) {
-  .page-text7 {
+  .page-text07 {
     text-align: center;
   }
 }

@@ -1,0 +1,162 @@
+.f-section-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.f-section-f-section-name-container {
+  margin: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  border-color: var(--dl-color-red-sb_red);
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.f-section-f-section-entries-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.f-section-f-section-entry-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-quarterunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.f-section-f-section-entry-name-container {
+  flex: 0.5;
+  width: auto;
+  margin: var(--dl-space-space-quarterunit);
+  display: flex;
+  min-width: auto;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.f-section-container1 {
+  flex: 0 0 auto;
+  width: max-content;
+  height: auto;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.f-section-container2 {
+  width: auto;
+  display: contents;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.f-section-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: var(--dl-space-space-halfunit);
+  padding-top: 1px;
+  padding-left: var(--dl-space-space-quarterunit);
+  border-radius: 16px;
+  padding-right: var(--dl-space-space-quarterunit);
+  padding-bottom: 1px;
+  justify-content: center;
+  background-color: var(--dl-color-class_colors-color-paladin);
+}
+.f-section-container4 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.f-section-f-entry-name-input {
+  fill: var(--dl-color-theme-neutral-dark);
+  flex: 1;
+  color: var(--dl-color-theme-neutral-dark);
+  width: 100%;
+  border-color: var(--dl-color-red-sb_lightgray);
+  border-style: solid;
+  margin-right: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-quarterunit);
+  padding-right: var(--dl-space-space-quarterunit);
+}
+.f-section-f-del-entry-button {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  width: 34px;
+  height: 24px;
+  padding: var(--dl-space-space-quarterunit);
+  margin-top: var(--dl-space-space-quarterunit);
+  font-family: "Arial";
+  border-color: var(--dl-color-red-sb_red);
+  padding-right: 4px;
+  background-color: var(--dl-color-red-sb_red);
+}
+.f-section-icon {
+  fill: var(--dl-color-theme-neutral-light);
+  width: 12px;
+  height: 17px;
+}
+.f-section-f-section-entry-desc-container {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-quarterunit);
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
+  flex-direction: column;
+}
+.f-section-f-entry-desc-input {
+  width: 100%;
+  height: 100%;
+  min-width: 250px;
+  border-color: var(--dl-color-red-sb_lightgray);
+}
+.f-section-text1 {
+  display: inline-block;
+  margin-left: var(--dl-space-space-quarterunit);
+}
+.f-section-text4 {
+  display: inline-block;
+  margin-left: var(--dl-space-space-quarterunit);
+}
+.f-section-text5 {
+  fill: var(--dl-color-red-sb_red);
+  color: var(--dl-color-red-sb_red);
+  display: inline-block;
+  margin-left: var(--dl-space-space-quarterunit);
+}
+.f-section-text8 {
+  fill: var(--dl-color-theme-neutral-light);
+  color: var(--dl-color-theme-neutral-light);
+  width: auto;
+  display: inline-block;
+}
+@media(max-width: 479px) {
+  .f-section-f-section-entry-desc-container {
+    min-width: 310px;
+  }
+}
